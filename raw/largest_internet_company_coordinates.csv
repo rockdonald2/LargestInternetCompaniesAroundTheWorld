@@ -1,0 +1,102 @@
+Rank,Company,Revenue ($B),F.Y.,Employees,Market cap. ($B),Headquarters,Founded,Industry,coord_lan,coord_lat,continent
+1,Amazon,386.06,2020,1298000.0,1668.0,Seattle,1994,Ecommerce,47.62245530000001,-122.3394743,North America
+2,Alphabet,182.53,2020,135301.0,1524.0,Mountain View,1998,Internet,35.7523743,-81.7005653,North America
+3,JD.com,114.97,2020,310000.0,115.96,Beijing,1998,Ecommerce,39.904211,116.407395,North America
+4,Meta,85.96,2020,58604.0,842.49,Menlo Park,2004,Social Media,37.485073,-122.1482824,North America
+5,Tencent,74.31,2020,85858.0,763.11,Shenzhen,1998,Internet,22.5387397,113.9509947,North America
+6,Alibaba,71.99,2020,117600.0,619.84,Hangzhou,1999,Ecommerce,30.189964,120.1921,North America
+7,Suning.com,38.06,2019,39031.0,13.47,Nanjing,1990,Ecommerce,37.4201377,-122.1438104,North America
+8,ByteDance,34.0,2020,10000.0,,Beijing,2012,Social Media,40.7551227,-73.98617089999999,North America
+9,Netflix,25.0,2020,9400.0,225.33,Los Gatos,1997,Entertainment,37.2595658,-121.962695,North America
+10,PayPal,21.45,2020,23200.0,307.97,San Jose,1998,Financial Services,37.3756655,-121.9235654,North America
+11,Salesforce.com,21.25,2021,49000.0,212.34,San Francisco,1999,Software,37.7897442,-122.3972337,North America
+12,Otto Group,18.27,2020,49895.0,,Berlin,2005,Ecommerce,43.656331,-79.4029156,North America
+13,Meituan,17.68,2020,69205.0,219.63,Beijing,2010,Ecommerce,40.8947334,-73.9425538,North America
+14,Wayfair,14.15,2020,16122.0,31.92,Boston,2005,Ecommerce,42.3509309,-71.0736062,North America
+15,Rakuten,13.48,2020,,19.34,Tokyo,1997,Ecommerce,35.6616272,139.7001593,North America
+16,Adobe,12.87,2020,22516.0,242.48,San Jose,1982,Software,37.3308855,-121.8938777,North America
+17,Baidu,12.7,2020,41000.0,73.21,Beijing,2000,Internet,40.0509597,116.3007982,North America
+18,NetEase,11.29,2020,,74.61,Hangzhou,1997,Internet,30.2741499,120.15515,North America
+19,Uber,11.13,2020,26900.0,104.49,San Francisco,2009,Transportation,37.7897326,-122.4003986,North America
+20,eBay,10.27,2020,12700.0,41.33,San Jose,1995,Ecommerce,37.2957916,-121.9304275,North America
+21,Bloomberg L.P.,10.0,2019,20000.0,,New York City,1981,Financial Services,40.7519529,-73.97837559999999,North America
+22,Block,9.5,2020,5477.0,111.43,San Francisco,2009,Financial Services,37.7923002,-122.4007517,North America
+23,Spotify,9.47,2020,5584.0,50.59,Stockholm[42],2006,Audio Streaming,59.32932349999999,18.0685808,North America
+24,Kwai,9.05,2020,,131.75,Beijing,2011,Social Media,37.4213127,-122.1415652,North America
+25,Zalando,7.98,2020,14194.0,27.37,Berlin,2008,Ecommerce,52.505531,13.432981,North America
+26,Chewy,7.15,2020,18500.0,33.05,Dania Beach,2011,Ecommerce,26.0594381,-80.1615227,North America
+27,Yahoo!,7.4,2020,10030.0,,Sunnyvale,2020,Search engine,37.4181541,-122.025486,North America
+28,Booking,6.79,2020,20300.0,96.35,Norwalk,1996,Travel,43.83052379999999,-90.621521,North America
+29,Coupang,6.23,2019,10000.0,,Seoul Delaware [52],2010,Ecommerce,38.9108325,-75.52766989999999,North America
+30,Wildberries,5.94,2020,40000.0,14.52,Moscow,2004,Ecommerce,55.76690499999999,37.587361,North America
+31,Naver,5.7,2019,15148.0,51.23,Seongnam,1999,Internet,37.3591784,127.1048319,North America
+32,Carvana,5.59,2020,10400.0,45.65,Tempe,2013,Ecommerce,33.4371564,-111.9268253,North America
+33,Epic Games,5.4,2019,1000.0,,Cary,1999,Video Games,35.7559459,-78.7336291,North America
+34,Expedia,5.2,2020,19100.0,25.26,Bellevue,1996,Travel,47.615809,-122.180663,North America
+35,ASOS.com,4.52,2020,3824.0,7.1,London,2000,Ecommerce,51.53372479999999,-0.1396764,North America
+36,ServiceNow,4.52,2020,13096.0,107.55,Santa Clara,2004,Software,37.3759167,-121.9626911,North America
+37,Sea Limited,4.38,2020,33800.0,128.07,Singapore,2009,Ecommerce,1.2998519,103.7876616,North America
+38,Pinduoduo,4.33,2019,5828.0,167.04,Shanghai,2015,Ecommerce,40.7794366,-73.963244,North America
+39,Workday,4.32,2020,12500.0,61.44,Pleasanton,2005,Software,37.6984925,-121.9266266,North America
+40,Bet365,3.89,2019,4708.0,,Stoke-on-Trent,2000,Online Gambling,53.023306,-2.1983522,North America
+41,Twitter,3.72,2020,5500.0,51.36,San Francisco,2006,Social Media,37.7764951,-122.4158841,North America
+42,Compass,3.72,2020,18000.0,,New York,2010,Internet Real estate,40.7364744,-73.9935912,North America
+43,Kakao,3.71,2020,,46.02,Jeju City,2010,Internet,33.4506986,126.5705986,North America
+44,Stripe,3.45,2018,2500.0,,San Francisco,2010,Financial Services,37.6622457,-122.3841269,North America
+45,Airbnb,3.38,2020,5597.0,103.86,San Francisco,2008,Lodging,37.771707,-122.4053769,North America
+46,Zillow,3.34,2020,5249.0,9.59,Seattle,2006,Real Estate,47.6076939,-122.3382479,North America
+47,GoDaddy,3.32,2020,6621.0,14.35,Scottsdale,2004,Web Hosting,33.6170638,-111.9057154,North America
+48,Akamai Technologies,3.2,2020,8368.0,17.36,"Cambridge, Massachusetts",1998,Cybersecurity,42.36492810000001,-71.08887109999999,North America
+49,wework,3.2,2020,6000.0,,New york city,2010,Real estate technology,40.7532064,-73.9893264,North America
+50,Infor,3.2,2020,18000.0,,New York,2002,Software as service,40.7408902,-73.9947928,North America
+51,DoorDash,2.89,2020,3886.0,46.27,San Francisco,2013,Delivery,37.7871623,-122.4004572,North America
+52,Yandex,2.96,2020,11864.0,21.65,Moscow  Amsterdam,1997,Internet,52.3675734,4.9041389,North America
+53,Shopify,2.93,2020,7000.0,133.22,Ottawa,2004,Ecommerce,45.4191176,-75.6966166,North America
+54,Trip.com,2.81,2020,33400.0,23.03,Shanghai,1999,Travel,31.220062,121.35785,North America
+55,Rackspace,2.71,2020,7200.0,20.0,"San Antonio, Texas",1998,Information Technology,29.5074167,-98.3934556,North America
+56,EPAM Systems,2.66,2019,3650.0,31.1,"Newtown, Pennsylvania",1993,Information Technology,40.222927,-74.905772,North America
+57,Zoom Video,2.65,2020,4422.0,96.43,"San Jose, California",2011,Internet Telecommunication,37.3328541,-121.8949083,North America
+58,Opendoor,2.58,2020,1048.0,10.78,San Francisco,2011,Internet Real Estate,37.790837,-122.398464,North America
+59,Overstock,2.55,2020,1750.0,2.89,Midvale,1999,Ecommerce,40.6181541,-111.9151897,North America
+60,Travelport,2.55,2018,3700.0,,"Cumberland, Georgia",2001,Travel,33.8862625,-84.4624335,North America
+61,Wish,2.54,2020,875.0,8.09,San Francisco,2008,Ecommerce,37.7904462,-122.4011537,North America
+62,The Stars Group,2.53,2019,4591.0,7.49,Toronto,2001,Online Gambling,43.64716629999999,-79.3795085,North America
+63,Snap,2.51,2020,3863.0,86.04,Santa Monica,2011,Social Media,34.0162966,-118.4534959,North America
+64,Coolblue,2.4,2020,6361.0,,Rotterdam,1999,Ecommerce,51.9513888,4.5581967,North America
+65,Match Group,2.39,2020,1900.0,38.59,Dallas,2006,Online Dating,32.9223395,-96.7836157,North America
+66,Lyft,2.36,2020,4675.0,20.06,San Francisco,2010,Transportation,37.7765663,-122.3920774,North America
+67,Fanatics,2.3,2018,1800.0,,Jacksonville,1995,Ecommerce,30.2397158,-81.5927099,North America
+67,58.com,2.23,2019,21743.0,9.69,Beijing,2005,Online Directory,39.904211,116.407395,North America
+68,Copart,2.21,2020,7600.0,29.04,Dallas,1982,Automotive,32.7423328,-96.9528885,North America
+69,CDK Global,2.19,2020,9000.0,5.3,Illinois,2014,Automotive Ecommerce,42.0631599,-88.12807459999999,North America
+70,Sina Corp,2.16,2019,8300.0,2.58,Beijing,1998,Internet,41.88206479999999,-87.640541,North America
+71,Newegg,2.08,2019,3700.0,,City of Industry,2003,Ecommerce,34.0008644,-117.9201402,North America
+72,Instacart,2.0,2017,5755.0,,San Francisco,2012,Hyperlocal Delivery,37.791302,-122.3963906,North America
+73,Shutterfly,2.0,2018,7500.0,,"Redwood City, California",1998,Photography,37.5393295,-122.2557601,North America
+74,BMC Software,2.0,2019,6000.0,,"Houston, Texas",1980,software as service,29.7425039,-95.5594056,North America
+75,Zynga,1.97,2020,2245.0,11.53,San Francisco,1998,Video Games,37.7712078,-122.4035397,North America
+76,Dropbox,1.91,2020,2760.0,10.47,San Francisco,2007,Cloud Storage,37.766053,-122.3930163,North America
+77,B2W,1.86,2020,,6.9,Rio de Janeiro,2006,Ecommerce,-22.897152,-43.1856443,North America
+78,Grubhub,1.82,2020,2841.0,6.62,Chicago,2001,Online Food Ordering,41.8827103,-87.63163300000001,North America
+79,Twilio,1.76,2020,4629.0,63.71,San Francisco,2008,Telecommunication,37.7880547,-122.3913353,North America
+80,Stitch Fix,1.71,2020,8000.0,4.66,San Francisco,2009,Personalized Services,37.6460268,-122.420897,North America
+81,Etsy,1.7,2020,1414.0,25.3,New York,2002,E commerce,40.70051369999999,-73.9883086,North America
+82,Pinterest,1.69,2020,2545.0,45.73,San Francisco,2009,Social Media,37.775454,-122.399961,North America
+83,Farfetch,1.67,2020,5441.0,16.96,London,2007,Ecommerce,51.5262825,-0.0889932,North America
+84,J2 Global,1.49,2020,,5.43,"Los Angeles,",1995,Internet,34.0482763,-118.2585607,North America
+85,ANGI Homeservices Inc.,1.47,2020,5100.0,7.92,Denver,1995,Internet,39.7690065,-104.9740209,North America
+86,DocuSign,1.45,2021,5630.0,41.13,San Francisco,2003,Software,37.7903743,-122.3922453,North America
+87,Groupon,1.42,2020,4159.0,1.3,Chicago,2005,Ecommerce,41.8975264,-87.6433014,North America
+88,Ozon,1.39,2020,14834.0,7.1,Moscow,1998,Ecommerce,55.775923,37.660442,North America
+89,Vroom.com,1.36,2020,944.0,5.89,New York City,2003,Ecommerce,40.752622,-73.98786969999999,North America
+90,Mail.Ru,1.33,2020,,5.17,Moscow,1998,Internet,55.755826,37.6172999,North America
+91,Sabre Corporation,1.33,2020,7531.0,4.88,Southlake,1994,Travel,32.9826702,-97.1609012,North America
+92,"Kaplan, Inc.",1.31,2020,5500.0,,"Fort Lauderdale, Florida",1938,Education,26.203981,-80.1644408,North America
+93,Endurance International Group,1.3,2019,2500.0,4.0,"Burlington, Massachusetts",1998,Internet,42.4957365,-71.1939683,North America
+94,Exela Technologies,1.29,2020,22000.0,1.2,"Irving,Texas",2017,Automation,32.8337004,-96.9047705,North America
+95,Verisign,1.27,2020,909.0,23.94,Reston,1995,Internet,38.9569186,-77.3620895,North America
+96,Flexport,1.27,2020,2000.0,,San Francisco,2013,Software freight forwarding,37.786529,-122.405385,North America
+97,LogMeIn,1.26,2019,3974.0,4.21,Boston,2003,Software,42.349005,-71.04822899999999,North America
+98,Craigslist,1.0,2018,1000.0,,San Francisco,1995,Classifieds,37.8271784,-122.2913078,North America
+99,Grab,1.0,2018,6000.0,,Singapore,2012,Transportation,39.3303479,-76.6095766,North America
+100,Ultimate Software,1.0,2018,5000.0,,"Weston, Florida",1993,Software,26.096513,-80.381287,North America
