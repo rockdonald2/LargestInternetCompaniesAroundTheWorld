@@ -195,6 +195,8 @@ import Viz from "./viz_core";
         }
 
         document.querySelector(`#${currViz}`).addEventListener('click', function () {
+            clearInterval(interval);
+
             const selectedCats = [];
 
             categories.forEach((cat) => {

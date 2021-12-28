@@ -32,7 +32,8 @@ import Viz from "./viz_core";
                     'coord_lon': o['coord_lon'],
                     'weight': groups.find(function (c) {
                         return c.key === o['geoc_city'];
-                    }).value
+                    }).value,
+                    'country': o['country_hu']
                 }
             });
 
@@ -43,7 +44,8 @@ import Viz from "./viz_core";
                     'city': o,
                     'coord_lat': coords[o]['coord_lat'],
                     'coord_lon': coords[o]['coord_lon'],
-                    'weight': coords[o]['weight']
+                    'weight': coords[o]['weight'],
+                    'country': coords[o]['country']
                 });
             });
 
@@ -112,6 +114,11 @@ import Viz from "./viz_core";
                             "value": Viz.COLORS['main-blue']
                         },
                         "tooltip": [{
+                                "field": "country",
+                                "type": "nominal",
+                                "title": "Ország"
+                            },
+                            {
                                 "field": "city",
                                 "type": "nominal",
                                 "title": "Város"
@@ -128,6 +135,7 @@ import Viz from "./viz_core";
         };
 
         let view = null;
+        let interval = null;
 
         vegaEmbedModule("#viz_1", spec, {
                 renderer: "canvas",
@@ -143,10 +151,11 @@ import Viz from "./viz_core";
             });
 
         function stream() {
+            clearInterval(interval);
             let yearCounter = 1930;
             let previous = 0;
 
-            const interval = setInterval(function () {
+            interval = setInterval(function () {
                 if (yearCounter === 2020) clearInterval(interval);
 
                 const data = makeData(dataByYear.filterRange([1930, yearCounter]).top(Infinity));

@@ -35,6 +35,7 @@
           vállalatoknak</span>, ezzel is utalva arra, hogy egy website-on keresztül történik az értékesítés javarésze.
       </p>
     </section>
+
     <section class="divider">
       <div class="divider--icon">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -44,6 +45,7 @@
       </div>
       <h3 class="divider--title">Mikor, hol és milyen iparágban?</h3>
     </section>
+
     <section class="viz_container">
       <div class="viz_container--controls">
         <button class="viz_container--controls__play" id="PlayViz1">
@@ -113,6 +115,135 @@
         </div>
       </div>
       <div id="viz_2"></div>
+      <div class="viz_container--conclusion">
+        <div class="viz_container--conclusion__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </div>
+        <p class="viz_container--conclusion__desc">
+          A legnépszerűbb iparág az E-kereskedelem, amelyhez a vállalatok 32%-a tartozik és ezt követi a Szoftver
+          kategória. Mindkettő esetén a legtöbb vállalatot 1998 és 2005 között jegyezték be. Míg az
+          E-kereskedelem vállalatok világszerte 11 országban vannak bejegyezve, a Szoftver kategória esetében 1 vállalat
+          kivételével az összesnek az AEÁ-ban van a székhelye. Másrészt a legrégebben kialakult aliparág az Internet,
+          amely esetén a legnagyobb vállalatok 1995 és 2000-ben voltak bejegyezve. Továbbá, a Házhozszállítás és
+          Szállítás iparágakhoz tartozó vállalatok pedig 2010-2013-ban voltak létrehozva, így ez a kettő számít a legfiatalabbnak a ranglistában.
+        </p>
+        <h3 class="viz_container--conclusion__main">
+          a vállalatok közel két harmada az E-kereskedelem, Szoftver és Internet aliparághoz tartózik
+        </h3>
+      </div>
+    </section>
+
+    <section class="divider">
+      <div class="divider--icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
+        </svg>
+      </div>
+      <h3 class="divider--title">Melyik aliparágban, milyen országban?</h3>
+    </section>
+
+    <section class="viz_container" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <div class="viz_container--title" id="viz3Title">
+        <h4>Vállalatok száma és árbevétele aliparág szerint</h4>
+      </div>
+      <div class="viz_container--controls">
+        <select id="pieChoice">
+          <option value="revenue" selected>Árbevétel</option>
+          <option value="number">Vállalatok száma</option>
+        </select>
+      </div>
+      <div class="viz_container--title" id="viz3Title">
+        <p>Több iparág kiválasztásáért Shift gomb lenyomásával klikkeljen a megfelelő körrészekre.</p>
+      </div>
+      <div class="viz_container--legend" id="viz3Legend"></div>
+      <div id="viz_3"></div>
+      <div id="viz_4"></div>
+      <div class="viz_container--conclusion">
+        <div class="viz_container--conclusion__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </div>
+        <p class="viz_container--conclusion__desc">
+          Az internet iparág robbanása 1993 és 2003 közé tehető, amikor a vállalatok többsége volt bejegyezve.
+          68%-uknak a székhelye az AEÁ-ban van és további 13% Kínában található. Nem meglepően, San Francisco-ban,
+          a Szilícium-völgyben működik a vállalatok közel 20%-a. Viszont a tény, hogy az AEÁ
+          többi térsége a
+          legnagyobb vállalatok közel felének ad otthont, arra enged következtetni, hogy itt egy kedvező piac fejlődött
+          ki az elmúlt évtizedekben.
+        </p>
+        <h3 class="viz_container--conclusion__main">
+          a vállalatok 63%-a az E-kereskedelem, Szoftver és Internet aliparághoz tartózik
+        </h3>
+      </div>
+    </section>
+
+    <section class="viz_container" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <div class="viz_container--title" id="viz3Title">
+        <h4>Vállalatok száma és megoszlása ország szerint</h4>
+      </div>
+      <div class="viz_container--controls">
+        <select id="barchartChoice">
+          <option value="num_number" selected>Vállalatok száma</option>
+          <option value="num_percentage">Vállalatok számának megoszlása</option>
+          <option value="revenue_number">Vállalatok árbevétele</option>
+          <option value="revenue_percentage">Vállalatok árbevételének megoszlása</option>
+        </select>
+      </div>
+      <div class="viz_container--legend" id="viz5Legend"></div>
+      <div id="viz_5"></div>
+      <div class="viz_container--conclusion">
+        <div class="viz_container--conclusion__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </div>
+        <p class="viz_container--conclusion__desc">
+          Az internet iparág robbanása 1993 és 2003 közé tehető, amikor a vállalatok többsége volt bejegyezve.
+          68%-uknak a székhelye az AEÁ-ban van és további 13% Kínában található. Nem meglepően, San Francisco-ban,
+          a Szilícium-völgyben működik a vállalatok közel 20%-a. Viszont a tény, hogy az AEÁ
+          többi térsége a
+          legnagyobb vállalatok közel felének ad otthont, arra enged következtetni, hogy itt egy kedvező piac fejlődött
+          ki az elmúlt évtizedekben.
+        </p>
+        <h3 class="viz_container--conclusion__main">
+          a vállalatok 63%-a az E-kereskedelem, Szoftver és Internet aliparághoz tartózik
+        </h3>
+      </div>
+    </section>
+
+    <section class="viz_container" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <div class="viz_container--title" id="viz3Title">
+        <h4>Vállalatok száma és megoszlása ország szerint</h4>
+      </div>
+      <div id="viz_6"></div>
+      <div class="viz_container--conclusion">
+        <div class="viz_container--conclusion__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5l7 7-7 7M5 5l7 7-7 7" />
+          </svg>
+        </div>
+        <p class="viz_container--conclusion__desc">
+          Az internet iparág robbanása 1993 és 2003 közé tehető, amikor a vállalatok többsége volt bejegyezve.
+          68%-uknak a székhelye az AEÁ-ban van és további 13% Kínában található. Nem meglepően, San Francisco-ban,
+          a Szilícium-völgyben működik a vállalatok közel 20%-a. Viszont a tény, hogy az AEÁ
+          többi térsége a
+          legnagyobb vállalatok közel felének ad otthont, arra enged következtetni, hogy itt egy kedvező piac fejlődött
+          ki az elmúlt évtizedekben.
+        </p>
+        <h3 class="viz_container--conclusion__main">
+          a vállalatok 63%-a az E-kereskedelem, Szoftver és Internet aliparághoz tartózik
+        </h3>
+      </div>
+    </section>
+
+    <section class="viz_container" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <div class="viz_container--title" id="viz3Title">
+        <h4>Vállalatok száma és megoszlása ország szerint</h4>
+      </div>
+      <div id="viz_7"></div>
       <div class="viz_container--conclusion">
         <div class="viz_container--conclusion__icon">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">

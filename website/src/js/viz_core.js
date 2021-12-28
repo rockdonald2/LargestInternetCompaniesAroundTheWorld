@@ -4,7 +4,8 @@ export default class Viz {
         "main-blue": "#076F94",
         "grey": "#DCDEDD",
         "light-grey": "#F2F2F2",
-        "background": "#FEFEFE"
+        "background": "#FEFEFE",
+        "orange": "#F67067"
     };
     static VIZUALIZATIONS = {};
     static FILTER = null;
@@ -35,6 +36,12 @@ export default class Viz {
         'Delivery': 'Házhozszállítás',
         'Telecommunication': 'Telekommunikáció',
         'Education': 'Oktatás'
+    };
+    static CONTINENT_COLORS = {
+        'North America': "#007962",
+        'Asia': "#024064",
+        'Europe': "#42AFB6",
+        'South America': "#00181A"
     }
 
     constructor() {
