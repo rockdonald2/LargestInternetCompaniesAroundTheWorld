@@ -1,0 +1,102 @@
+Rank,Company,Revenue,F.Y.,Employees,Market Capitalization,Headquarters,Founded,Industry,coord_lat,coord_lon,geoc_city,country,continent,industry_cat,country_hu,industry_cat_hu,continent_hu
+1,Amazon,386.06,2020,1298000.0,1668.0,Seattle,1994,Ecommerce,47.6062095,-122.33207079999998,Seattle,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+2,Alphabet,182.53,2020,135301.0,1524.0,Mountain View,1998,Internet,37.3860517,-122.08385109999999,Mountain View,United States,North America,Internet,Amerikai Egyesült Államok,Internet,Észak-Amerika
+3,JD.com,114.97,2020,310000.0,115.96,Beijing,1998,Ecommerce,39.904211,116.407395,Beijing,China,Asia,Ecommerce,Kína,E-kereskedelem,Ázsia
+4,Meta,85.96,2020,58604.0,842.49,Menlo Park,2004,Social Media,37.4529598,-122.1817252,Menlo Park,United States,North America,Social Media,Amerikai Egyesült Államok,Közösségi média,Észak-Amerika
+5,Tencent,74.31,2020,85858.0,763.11,Shenzhen,1998,Internet,22.5428599,114.05956,Shenzhen,China,Asia,Internet,Kína,Internet,Ázsia
+6,Alibaba,71.99,2020,117600.0,619.84,Hangzhou,1999,Ecommerce,30.2741499,120.15515,Hangzhou,China,Asia,Ecommerce,Kína,E-kereskedelem,Ázsia
+7,Suning.com,38.06,2019,39031.0,13.47,Nanjing,1990,Ecommerce,32.0583799,118.79647,Nanjing,China,Asia,Ecommerce,Kína,E-kereskedelem,Ázsia
+8,ByteDance,34.0,2020,10000.0,,Beijing,2012,Social Media,39.904211,116.407395,Beijing,China,Asia,Social Media,Kína,Közösségi média,Ázsia
+9,Netflix,25.0,2020,9400.0,225.33,Los Gatos,1997,Entertainment,37.235807799999996,-121.96237509999999,Los Gatos,United States,North America,Entertainment,Amerikai Egyesült Államok,Szórakoztatás,Észak-Amerika
+10,PayPal,21.45,2020,23200.0,307.97,San Jose,1998,Financial Services,37.338208200000004,-121.88632859999998,San Jose,United States,North America,Financial Services,Amerikai Egyesült Államok,Pénzügyi szolgáltatások,Észak-Amerika
+11,Salesforce.com,21.25,2021,49000.0,212.34,San Francisco,1999,Software,37.7749295,-122.4194155,San Francisco,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+12,Otto Group,18.27,2020,49895.0,,Berlin,2005,Ecommerce,52.52000659999999,13.404954,Berlin,Germany,Europe,Ecommerce,Németország,E-kereskedelem,Európa
+13,Meituan,17.68,2020,69205.0,219.63,Beijing,2010,Ecommerce,39.904211,116.407395,Beijing,China,Asia,Ecommerce,Kína,E-kereskedelem,Ázsia
+14,Wayfair,14.15,2020,16122.0,31.92,Boston,2005,Ecommerce,42.360082500000004,-71.0588801,Boston,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+15,Rakuten,13.48,2020,23841.0,19.34,Tokyo,1997,Ecommerce,35.646572,139.653244,Setagaya,Japan,Asia,Ecommerce,Japán,E-kereskedelem,Ázsia
+16,Adobe,12.87,2020,22516.0,242.48,San Jose,1982,Software,37.338208200000004,-121.88632859999998,San Jose,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+17,Baidu,12.7,2020,41000.0,73.21,Beijing,2000,Internet,39.904211,116.407395,Beijing,China,Asia,Internet,Kína,Internet,Ázsia
+18,NetEase,11.29,2020,28239.0,74.61,Hangzhou,1997,Internet,30.2741499,120.15515,Hangzhou,China,Asia,Internet,Kína,Internet,Ázsia
+19,Uber,11.13,2020,26900.0,104.49,San Francisco,2009,Transportation,37.7749295,-122.4194155,San Francisco,United States,North America,Transportation,Amerikai Egyesült Államok,Szállítás,Észak-Amerika
+20,eBay,10.27,2020,12700.0,41.33,San Jose,1995,Ecommerce,37.338208200000004,-121.88632859999998,San Jose,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+21,Bloomberg L.P.,10.0,2019,20000.0,,New York City,1981,Financial Services,40.7127753,-74.0059728,New York,United States,North America,Financial Services,Amerikai Egyesült Államok,Pénzügyi szolgáltatások,Észak-Amerika
+22,Block,9.5,2020,5477.0,111.43,San Francisco,2009,Financial Services,37.7749295,-122.4194155,San Francisco,United States,North America,Financial Services,Amerikai Egyesült Államok,Pénzügyi szolgáltatások,Észak-Amerika
+23,Spotify,9.47,2020,5584.0,50.59,Stockholm,2006,Audio Streaming,59.329323499999994,18.068580800000003,Stockholm,Sweden,Europe,Entertainment,Svédország,Szórakoztatás,Európa
+24,Kwai,9.05,2020,21499.0,131.75,Beijing,2011,Social Media,39.904211,116.407395,Beijing,China,Asia,Social Media,Kína,Közösségi média,Ázsia
+25,Zalando,7.98,2020,14194.0,27.37,Berlin,2008,Ecommerce,52.52000659999999,13.404954,Berlin,Germany,Europe,Ecommerce,Németország,E-kereskedelem,Európa
+26,Chewy,7.15,2020,18500.0,33.05,Dania Beach,2011,Ecommerce,26.052311,-80.1439343,Dania Beach,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+27,Yahoo!,7.4,2020,10030.0,,Sunnyvale,1994,Search engine,37.368829999999996,-122.03634960000001,Sunnyvale,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+28,Booking,6.79,2020,20300.0,96.35,Norwalk,1996,Travel,41.11774399999999,-73.4081575,Norwalk,United States,North America,Travel,Amerikai Egyesült Államok,Utazás,Észak-Amerika
+29,Coupang,6.23,2019,10000.0,,Seoul,2010,Ecommerce,37.511235,127.098027,Songpa-gu,South Korea,Asia,Ecommerce,Dél-Korea (Koreai Köztársaság),E-kereskedelem,Ázsia
+30,Wildberries,5.94,2020,40000.0,14.52,Moscow,2004,Ecommerce,1.352083,103.819836,Singapore,Russia,Europe,Ecommerce,Oroszország,E-kereskedelem,Európa
+31,Naver,5.7,2019,15148.0,51.23,Seongnam,1999,Internet,37.444916799999994,127.1388684,Seongnam-si,South Korea,Asia,Internet,Dél-Korea (Koreai Köztársaság),Internet,Ázsia
+32,Carvana,5.59,2020,10400.0,45.65,Tempe,2013,Ecommerce,33.4255104,-111.9400054,Tempe,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+33,Epic Games,5.4,2019,1000.0,,Cary,1999,Video Games,35.791540000000005,-78.78111690000001,Cary,United States,North America,Entertainment,Amerikai Egyesült Államok,Szórakoztatás,Észak-Amerika
+34,Expedia,5.2,2020,19100.0,25.26,Bellevue,1996,Travel,47.6101497,-122.2015159,Bellevue,United States,North America,Travel,Amerikai Egyesült Államok,Utazás,Észak-Amerika
+35,ASOS.com,4.52,2020,3824.0,7.1,London,2000,Ecommerce,51.50721779999999,-0.1275862,London,United Kingdom,Europe,Ecommerce,Egyesült Királyság,E-kereskedelem,Európa
+36,ServiceNow,4.52,2020,13096.0,107.55,Santa Clara,2004,Software,37.354107899999995,-121.9552356,Santa Clara,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+37,Sea Limited,4.38,2020,33800.0,128.07,Singapore,2009,Ecommerce,1.300041,103.78860300000001,Singapore,Singapore,Asia,Ecommerce,Szingapúr,E-kereskedelem,Ázsia
+38,Pinduoduo,4.33,2019,5828.0,167.04,Shanghai,2015,Ecommerce,31.230415999999998,121.473701,Shanghai,China,Asia,Ecommerce,Kína,E-kereskedelem,Ázsia
+39,Workday,4.32,2020,12500.0,61.44,Pleasanton,2005,Software,37.6604484,-121.87579679999999,Pleasanton,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+40,Bet365,3.89,2019,4708.0,,Stoke-on-Trent,2000,Online Gambling,53.00266800000001,-2.179404,Stoke-on-Trent,United Kingdom,Europe,Entertainment,Egyesült Királyság,Szórakoztatás,Európa
+41,Twitter,3.72,2020,5500.0,51.36,San Francisco,2006,Social Media,37.7749295,-122.4194155,San Francisco,United States,North America,Social Media,Amerikai Egyesült Államok,Közösségi média,Észak-Amerika
+42,Compass,3.72,2020,18000.0,,New York,2010,Internet Real estate,40.7127753,-74.0059728,New York,United States,North America,Real Estate,Amerikai Egyesült Államok,Ingatlan,Észak-Amerika
+43,Kakao,3.71,2020,10644.0,46.02,Jeju City,2010,Internet,33.4996213,126.5311884,Jeju-si,South Korea,Asia,Internet,Dél-Korea (Koreai Köztársaság),Internet,Ázsia
+44,Stripe,3.45,2018,2500.0,,San Francisco,2010,Financial Services,37.7749295,-122.4194155,San Francisco,United States,North America,Financial Services,Amerikai Egyesült Államok,Pénzügyi szolgáltatások,Észak-Amerika
+45,Airbnb,3.38,2020,5597.0,103.86,San Francisco,2008,Lodging,37.7749295,-122.4194155,San Francisco,United States,North America,Travel,Amerikai Egyesült Államok,Utazás,Észak-Amerika
+46,Zillow,3.34,2020,5249.0,9.59,Seattle,2006,Real Estate,47.6062095,-122.33207079999998,Seattle,United States,North America,Real Estate,Amerikai Egyesült Államok,Ingatlan,Észak-Amerika
+47,GoDaddy,3.32,2020,6621.0,14.35,Scottsdale,2004,Web Hosting,33.494170399999994,-111.9260519,Scottsdale,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+48,Akamai Technologies,3.2,2020,8368.0,17.36,"Cambridge, Massachusetts",1998,Cybersecurity,42.373615799999996,-71.10973349999998,Cambridge,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+49,wework,3.2,2020,6000.0,,New york city,2010,Real estate technology,40.7127753,-74.0059728,New York,United States,North America,Real Estate,Amerikai Egyesült Államok,Ingatlan,Észak-Amerika
+50,Infor,3.2,2020,18000.0,,New York,2002,Software as service,40.7127753,-74.0059728,New York,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+51,DoorDash,2.89,2020,3886.0,46.27,San Francisco,2013,Delivery,37.7749295,-122.4194155,San Francisco,United States,North America,Delivery,Amerikai Egyesült Államok,Házhozszállítás,Észak-Amerika
+52,Yandex,2.96,2020,11864.0,21.65,Moscow,1997,Internet,55.755826,37.6172999,Moscow,Russia,Europe,Internet,Oroszország,Internet,Európa
+53,Shopify,2.93,2020,7000.0,133.22,Ottawa,2004,Ecommerce,45.42152960000001,-75.69719309999998,Ottawa,Canada,North America,Ecommerce,Kanada,E-kereskedelem,Észak-Amerika
+54,Trip.com,2.81,2020,33400.0,23.03,Shanghai,1999,Travel,31.230415999999998,121.473701,Shanghai,China,Asia,Travel,Kína,Utazás,Ázsia
+55,Rackspace,2.71,2020,7200.0,20.0,"San Antonio, Texas",1998,Information Technology,29.4241219,-98.4936282,San Antonio,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+56,EPAM Systems,2.66,2019,3650.0,31.1,"Newtown, Pennsylvania",1993,Information Technology,40.228337100000005,-74.9322596,Newtown,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+57,Zoom Video,2.65,2020,4422.0,96.43,"San Jose, California",2011,Internet Telecommunication,37.338208200000004,-121.88632859999998,San Jose,United States,North America,Telecommunication,Amerikai Egyesült Államok,Telekommunikáció,Észak-Amerika
+58,Opendoor,2.58,2020,1048.0,10.78,San Francisco,2011,Internet Real Estate,37.7749295,-122.4194155,San Francisco,United States,North America,Real Estate,Amerikai Egyesült Államok,Ingatlan,Észak-Amerika
+59,Overstock,2.55,2020,1750.0,2.89,Midvale,1999,Ecommerce,40.611058899999996,-111.8999353,Midvale,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+60,Travelport,2.55,2018,3700.0,,"Cumberland, Georgia",2001,Travel,33.896547,-84.46114949999998,Vinings,United States,North America,Travel,Amerikai Egyesült Államok,Utazás,Észak-Amerika
+61,Wish,2.54,2020,875.0,8.09,San Francisco,2008,Ecommerce,37.7749295,-122.4194155,San Francisco,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+62,The Stars Group,2.53,2019,4591.0,7.49,Toronto,2001,Online Gambling,43.653226000000004,-79.3831843,Toronto,Canada,North America,Entertainment,Kanada,Szórakoztatás,Észak-Amerika
+63,Snap,2.51,2020,3863.0,86.04,Santa Monica,2011,Social Media,34.01945429999999,-118.4911912,Santa Monica,United States,North America,Social Media,Amerikai Egyesült Államok,Közösségi média,Észak-Amerika
+64,Coolblue,2.4,2020,6361.0,,Rotterdam,1999,Ecommerce,51.9244201,4.4777325999999995,Rotterdam,Netherlands,Europe,Ecommerce,Hollandia,E-kereskedelem,Európa
+65,Match Group,2.39,2020,1900.0,38.59,Dallas,2006,Online Dating,32.7766642,-96.7969879,Dallas,United States,North America,Entertainment,Amerikai Egyesült Államok,Szórakoztatás,Észak-Amerika
+66,Lyft,2.36,2020,4675.0,20.06,San Francisco,2010,Transportation,37.7749295,-122.4194155,San Francisco,United States,North America,Transportation,Amerikai Egyesült Államok,Szállítás,Észak-Amerika
+67,Fanatics,2.3,2018,1800.0,,Jacksonville,1995,Ecommerce,30.3321838,-81.65565099999998,Jacksonville,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+67,58.com,2.23,2019,21743.0,9.69,Beijing,2005,Online Directory,39.904211,116.407395,Beijing,China,Asia,Software,Kína,Szoftver,Ázsia
+68,Copart,2.21,2020,7600.0,29.04,Dallas,1982,Automotive,32.7766642,-96.7969879,Dallas,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+69,CDK Global,2.19,2020,9000.0,5.3,Illinois,2014,Automotive Ecommerce,42.062992,-88.12271899999999,Hoffman Estates,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+70,Sina Corp,2.16,2019,8300.0,2.58,Beijing,1998,Internet,39.904211,116.407395,Beijing,China,Asia,Internet,Kína,Internet,Ázsia
+71,Newegg,2.08,2019,3700.0,,"City of Industry, California",2003,Ecommerce,34.0197335,-117.95867539999999,City of Industry,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+72,Instacart,2.0,2017,5755.0,,San Francisco,2012,Hyperlocal Delivery,37.7749295,-122.4194155,San Francisco,United States,North America,Delivery,Amerikai Egyesült Államok,Házhozszállítás,Észak-Amerika
+73,Shutterfly,2.0,2018,7500.0,,"Redwood City, California",1998,Photography,37.484795500000004,-122.228141,Redwood City,United States,North America,Entertainment,Amerikai Egyesült Államok,Szórakoztatás,Észak-Amerika
+74,BMC Software,2.0,2019,6000.0,,"Houston, Texas",1980,software as service,29.7604267,-95.36980279999999,Houston,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+75,Zynga,1.97,2020,2245.0,11.53,San Francisco,1998,Video Games,37.7749295,-122.4194155,San Francisco,United States,North America,Entertainment,Amerikai Egyesült Államok,Szórakoztatás,Észak-Amerika
+76,Dropbox,1.91,2020,2760.0,10.47,San Francisco,2007,Cloud Storage,37.7749295,-122.4194155,San Francisco,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+77,B2W,1.86,2020,156.0,6.9,Rio de Janeiro,2006,Ecommerce,-22.9068467,-43.1728965,Rio de Janeiro,Brazil,South America,Ecommerce,Brazília,E-kereskedelem,Dél-Amerika
+78,Grubhub,1.82,2020,2841.0,6.62,Chicago,2001,Online Food Ordering,41.8781136,-87.62979820000001,Chicago,United States,North America,Delivery,Amerikai Egyesült Államok,Házhozszállítás,Észak-Amerika
+79,Twilio,1.76,2020,4629.0,63.71,San Francisco,2008,Telecommunication,37.7749295,-122.4194155,San Francisco,United States,North America,Telecommunication,Amerikai Egyesült Államok,Telekommunikáció,Észak-Amerika
+80,Stitch Fix,1.71,2020,8000.0,4.66,San Francisco,2009,Personalized Services,37.7749295,-122.4194155,San Francisco,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+81,Etsy,1.7,2020,1414.0,25.3,New York,2002,E commerce,40.7127753,-74.0059728,New York,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+82,Pinterest,1.69,2020,2545.0,45.73,San Francisco,2009,Social Media,37.7749295,-122.4194155,San Francisco,United States,North America,Social Media,Amerikai Egyesült Államok,Közösségi média,Észak-Amerika
+83,Farfetch,1.67,2020,5441.0,16.96,London,2007,Ecommerce,51.50721779999999,-0.1275862,London,United Kingdom,Europe,Ecommerce,Egyesült Királyság,E-kereskedelem,Európa
+84,J2 Global,1.49,2020,4700.0,5.43,"Los Angeles,",1995,Internet,34.0522342,-118.24368490000002,Los Angeles,United States,North America,Internet,Amerikai Egyesült Államok,Internet,Észak-Amerika
+85,ANGI Homeservices Inc.,1.47,2020,5100.0,7.92,Denver,1995,Internet,39.739235799999996,-104.990251,Denver,United States,North America,Internet,Amerikai Egyesült Államok,Internet,Észak-Amerika
+86,DocuSign,1.45,2021,5630.0,41.13,San Francisco,2003,Software,37.7749295,-122.4194155,San Francisco,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+87,Groupon,1.42,2020,4159.0,1.3,Chicago,2005,Ecommerce,41.8781136,-87.62979820000001,Chicago,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+88,Ozon,1.39,2020,14834.0,7.1,Moscow,1998,Ecommerce,55.755826,37.6172999,Moscow,Russia,Europe,Ecommerce,Oroszország,E-kereskedelem,Európa
+89,Vroom.com,1.36,2020,944.0,5.89,New York City,2003,Ecommerce,40.7127753,-74.0059728,New York,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+90,Mail.Ru,1.33,2020,8842.0,5.17,Moscow,1998,Internet,55.755826,37.6172999,Moscow,Russia,Europe,Internet,Oroszország,Internet,Európa
+91,Sabre Corporation,1.33,2020,7531.0,4.88,Southlake,1994,Travel,32.9412363,-97.13417829999999,Southlake,United States,North America,Travel,Amerikai Egyesült Államok,Utazás,Észak-Amerika
+92,"Kaplan, Inc.",1.31,2020,5500.0,,"Fort Lauderdale, Florida",1938,Education,26.122438600000002,-80.13731740000001,Fort Lauderdale,United States,North America,Education,Amerikai Egyesült Államok,Oktatás,Észak-Amerika
+93,Endurance International Group,1.3,2019,2500.0,4.0,"Burlington, Massachusetts",1998,Internet,42.5047161,-71.19562049999999,Burlington,United States,North America,Internet,Amerikai Egyesült Államok,Internet,Észak-Amerika
+94,Exela Technologies,1.29,2020,22000.0,1.2,"Irving,Texas",2017,Automation,32.814017699999994,-96.9488945,Irving,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+95,Verisign,1.27,2020,909.0,23.94,Reston,1995,Internet,38.9586307,-77.35700279999998,Reston,United States,North America,Internet,Amerikai Egyesült Államok,Internet,Észak-Amerika
+96,Flexport,1.27,2020,2000.0,,San Francisco,2013,Software freight forwarding,37.7749295,-122.4194155,San Francisco,United States,North America,Transportation,Amerikai Egyesült Államok,Szállítás,Észak-Amerika
+97,LogMeIn,1.26,2019,3974.0,4.21,Boston,2003,Software,42.360082500000004,-71.0588801,Boston,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
+98,Craigslist,1.0,2018,1000.0,,San Francisco,1995,Classifieds,37.7749295,-122.4194155,San Francisco,United States,North America,Ecommerce,Amerikai Egyesült Államok,E-kereskedelem,Észak-Amerika
+99,Grab,1.0,2018,6000.0,,Singapore,2012,Transportation,1.352083,103.819836,Singapore,Singapore,Asia,Transportation,Szingapúr,Szállítás,Ázsia
+100,Ultimate Software,1.0,2018,5000.0,,"Weston, Florida",1993,Software,26.100365399999998,-80.3997748,Weston,United States,North America,Software,Amerikai Egyesült Államok,Szoftver,Észak-Amerika
