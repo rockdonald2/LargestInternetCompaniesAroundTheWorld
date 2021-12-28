@@ -4,6 +4,7 @@ html {
   background: $background-color;
   color: $font-color;
   line-height: 1.4;
+  font-size: 10px;
 }
 
 *,
@@ -11,6 +12,11 @@ html {
 *::before {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {

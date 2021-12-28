@@ -1,0 +1,70 @@
+.header {
+    background-color: $light-grey;
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 2rem 3rem;
+    position: relative;
+    border-radius: 4px;
+
+    &--title {
+        text-transform: uppercase;
+        font-size: 4rem;
+        text-align: center;
+        max-width: 75%;
+        margin: 0 auto;
+        color: $main-blue;
+        font-weight: 600;
+
+        &__highlight {
+            color: $orange;
+            display: block;
+        }
+    }
+
+    &--icon {
+        background-color: $main-blue;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        padding: .75rem;
+        @include layeredShadow;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        svg {
+            width: 6rem;
+            height: 6rem;
+            stroke: $light-grey;
+        }
+    }
+}
+
+.introduction {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5rem auto 2rem auto;
+
+    &--subtitle {
+        color: $main-blue;
+        font-size: 2.2rem;
+        max-width: 25%;
+        font-weight: 500;
+    }
+
+    &--desc {
+        max-width: 50%;
+        text-align: justify;
+        font-size: 1.6rem;
+
+        &__highlight {
+            color: $orange;
+            font-weight: 600;
+        }
+    }
+}
