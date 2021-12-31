@@ -39,7 +39,17 @@ import Viz from "./viz_core";
 
         makeData();
 
-        console.log(data);
+        (function () {
+            const legendContainer = document.querySelector("#viz7Legend");
+
+            let html = "";
+
+            Object.keys(Viz.CONTINENT_COLORS).forEach((cont) => {
+                html += `<p><span style="background-color: ${Viz.CONTINENT_COLORS[cont]}"></span> ${Viz.CONTINENT_HU[cont]}</p>`;
+            });
+
+            legendContainer.innerHTML = html;
+        })();
 
         const spec = {
             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
@@ -50,9 +60,6 @@ import Viz from "./viz_core";
                 "background": null,
                 "view": {
                     "stroke": "transparent"
-                },
-                "legend": {
-                    "disable": true
                 }
             },
             "data": {
@@ -68,12 +75,16 @@ import Viz from "./viz_core";
                 "x": {
                     "field": "number",
                     "type": "quantitative",
+                    "scale": {
+                        "domain": [0, 70]
+                    },
                     "axis": {
-                        "gridColor": Viz.COLORS['grey'],
+                        "gridColor": "transparent",
                         "labelPadding": 10,
                         "labelFontSize": 14,
                         "domainColor": Viz.COLORS['grey'],
                         "tickColor": Viz.COLORS['grey'],
+                        "title": "Vállalatok száma",
                         "titleFontSize": 15,
                         "titlePadding": 30,
                         "titleFontWeight": 400,
@@ -82,6 +93,9 @@ import Viz from "./viz_core";
                 "y": {
                     "field": "sum",
                     "type": "quantitative",
+                    "scale": {
+                        "domain": [0, 1000]
+                    },
                     "axis": {
                         "gridColor": Viz.COLORS['grey'],
                         "labelPadding": 10,
@@ -91,11 +105,19 @@ import Viz from "./viz_core";
                         "titleFontSize": 15,
                         "titlePadding": 30,
                         "titleFontWeight": 400,
+                        "title": "Összárbevétel"
                     }
                 },
                 "size": {
                     "field": "avg",
-                    "type": "quantitative"
+                    "type": "quantitative",
+                    "title": "Átlagárbevétel",
+                    "legend": {
+                        "labelFontSize": 13,
+                        "labelPadding": 10,
+                        "titleFontSize": 15,
+                        "gradientLabelOffset": 8
+                    }
                 },
                 "color": {
                     "field": "continent",
@@ -103,6 +125,9 @@ import Viz from "./viz_core";
                     "scale": {
                         "domain": Object.keys(Viz.CONTINENT_COLORS),
                         "range": Object.values(Viz.CONTINENT_COLORS)
+                    },
+                    "legend": {
+                        "disable": true
                     }
                 },
                 "tooltip": [{
@@ -118,17 +143,17 @@ import Viz from "./viz_core";
                     {
                         "field": "avg",
                         "type": "quantitative",
-                        "title": "Átlagárbevétel"
+                        "title": "Átlagárbevétel (mrd. $)"
                     },
                     {
                         "field": "sum",
                         "type": "quantitative",
-                        "title": "Összárbevétel"
+                        "title": "Összárbevétel (mrd. $)"
                     },
                     {
                         "field": "number",
                         "type": "quantitative",
-                        "title": "Vállalatok száma"
+                        "title": "Vállalatok száma (db)"
                     }
                 ]
             }

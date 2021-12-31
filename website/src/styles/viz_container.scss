@@ -44,6 +44,10 @@
         margin-top: 3rem;
         justify-content: space-evenly;
 
+        @media screen and (max-width: 1600px) {
+            max-width: 95%;
+        }
+
         &__left {
             font-size: 2rem;
 
@@ -76,6 +80,10 @@
         justify-content: space-evenly;
         margin: 5rem auto 2rem auto;
 
+        @media screen and (max-width: 1600px) {
+            width: 90%;
+        }
+
         &__icon {
             background-color: $main-blue;
             display: inline-flex;
@@ -107,11 +115,15 @@
     }
 
     &--filter {
-        max-width: 70%;
+        max-width: 60%;
         margin: 4rem auto 4rem auto;
         display: grid;
         grid-template-columns: repeat(6, 1fr);
         grid-row-gap: 1rem;
+
+        @media screen and (max-width: 1600px) {
+            max-width: 80%;
+        }
 
         &__checkbox {
             display: flex;
@@ -129,6 +141,7 @@
                 top: 50%;
                 background-color: $grey;
                 transform: translateY(-50%);
+                margin-left: -2rem;
             }
 
             input[type="checkbox"] {
@@ -136,8 +149,9 @@
             }
 
             label {
-                padding-left: 3rem;
+                padding-left: 1rem;
                 font-size: 1.4rem;
+                cursor: pointer;
             }
 
             &:not(:last-of-type) {
@@ -148,7 +162,7 @@
 
     &--title {
         margin-top: 4rem;
-        
+
         h4 {
             font-size: 2rem;
             font-weight: 500;
@@ -157,6 +171,10 @@
 
         p {
             font-size: 1.5rem;
+
+            &:not(:last-of-type) {
+                margin-bottom: 1rem;
+            }
         }
     }
 
@@ -182,24 +200,31 @@
         }
     }
 
+    #viz7Legend {
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
     #viz_4 {
         position: absolute;
-        transform: translateY(-50%);
-        top: 52.75%;
-        left: 26.75%;
+        transform: translate(-50%, -41%);
+        top: 50%;
+        left: 50%;
     }
-    
+
     #viz_3 {
         margin: 17.5rem 0 12.5rem 0;
         position: relative;
         z-index: 1;
         display: block;
     }
-    
+
     #viz3Title {
         margin-top: 2rem;
     }
-    
+
     #pieChoice,
     #barchartChoice {
         font-size: 1.6rem;

@@ -42,7 +42,13 @@ export default class Viz {
         'Asia': "#024064",
         'Europe': "#42AFB6",
         'South America': "#00181A"
-    }
+    };
+    static CONTINENT_HU = {
+        'North America': 'Észak-Amerika',
+        'Asia': 'Ázsia',
+        'Europe': 'Európa',
+        'South America': 'Dél-Amerika'
+    };
 
     constructor() {
         Object.keys(Viz.VIZUALIZATIONS).forEach((k) => {

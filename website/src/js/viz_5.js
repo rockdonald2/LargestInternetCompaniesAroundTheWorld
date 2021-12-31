@@ -8,6 +8,9 @@ import Viz from "./viz_core";
     const currViz = "PlayViz5";
 
     Viz.VIZUALIZATIONS[currViz] = function () {
+        const WIDTH = 1300;
+        const HEIGHT = 750;
+
         const filter = crossfilter(Viz.DATA);
         const raw = filter.dimension(function (o) {
             return o['country'];
@@ -54,6 +57,12 @@ import Viz from "./viz_core";
                 }
             });
 
+            Object.keys(coords).forEach((city) => {
+                const companiesArr = [];
+                dataByCity.filter(city).top(Infinity).forEach((curr) => companiesArr.push(curr['Company']));
+                coords[city]['companies'] = companiesArr.join(", ");
+            });
+
             const coords_arr = [];
 
             Object.keys(coords).forEach((o) => {
@@ -62,7 +71,8 @@ import Viz from "./viz_core";
                     'coord_lat': coords[o]['coord_lat'],
                     'coord_lon': coords[o]['coord_lon'],
                     'weight': coords[o]['weight'],
-                    'country': coords[o]['country']
+                    'country': coords[o]['country'],
+                    'companies': coords[o]['companies']
                 });
             });
 
@@ -72,8 +82,8 @@ import Viz from "./viz_core";
         const spec = {
             "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
             "description": "V6",
-            "width": 1500,
-            "height": 750,
+            "width": WIDTH,
+            "height": HEIGHT,
             "config": {
                 "background": null,
                 "view": {
@@ -142,7 +152,7 @@ import Viz from "./viz_core";
                         {
                             "field": "sum",
                             "type": "quantitative",
-                            "title": "Összárbevétel"
+                            "title": "Összárbevétel (mrd. $)"
                         }
                     ]
                 }
@@ -186,7 +196,12 @@ import Viz from "./viz_core";
                         {
                             "field": "weight",
                             "type": "quantitative",
-                            "title": "Vállalatok száma"
+                            "title": "Vállalatok száma (db)"
+                        },
+                        {
+                            "field": "companies",
+                            "type": "nominal",
+                            "title": "Vállalatok"
                         }
                     ]
                 }

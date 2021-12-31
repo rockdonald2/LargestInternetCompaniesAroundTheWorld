@@ -11,6 +11,10 @@ import Viz from "./viz_core";
     const currViz = "PlayViz2";
 
     Viz.VIZUALIZATIONS[currViz] = function () {
+        const WIDTH = 1150;
+        const HEIGHT = 250;
+        const RADIUS = 125;
+
         const filter = crossfilter(Viz.DATA);
         const data = filter.dimension(function (o) {
             return o['industry_cat'];
@@ -28,15 +32,15 @@ import Viz from "./viz_core";
                     "disable": true
                 }
             },
-            "width": 1150,
-            "height": 250,
+            "width": WIDTH,
+            "height": HEIGHT,
             "data": {
                 "name": "table"
             },
             "mark": {
                 "type": "circle",
                 "opacity": 1,
-                "size": 125
+                "size": RADIUS
             },
             "transform": [{
                 "window": [{
@@ -121,15 +125,17 @@ import Viz from "./viz_core";
         let view = null;
         let interval = null;
 
-        const catContainer = document.querySelector('#Viz2IndustryCats');
-        let html = "";
-        Object.keys(Viz.INDUSTRY_COLORS).forEach((k) => {
-            html += `<div class="viz_container--filter__checkbox">
+        (function () {
+            const catContainer = document.querySelector('#Viz2IndustryCats');
+            let html = "";
+            Object.keys(Viz.INDUSTRY_COLORS).forEach((k) => {
+                html += `<div class="viz_container--filter__checkbox">
             <input type="checkbox" id="${k}Cat" value="${k}" checked="true">
             <label for="${k}Cat"><span id="${k.replaceAll(' ', '_')}Circle" class="viz_container--filter__checkbox--circle" style="background-color: ${Viz.INDUSTRY_COLORS[k]}"></span> ${Viz.INDUSTRY_HU[k]}</label>
           </div>`;
-        });
-        catContainer.innerHTML = html;
+            });
+            catContainer.innerHTML = html;
+        })();
 
         const categories = document.querySelectorAll(".viz_container--filter__checkbox input[type='checkbox']");
         categories.forEach((k) => k.addEventListener('change', function () {
@@ -191,7 +197,7 @@ import Viz from "./viz_core";
                 document.querySelector("#Viz2Year").textContent = yearCounter;
                 document.querySelector("#Viz2Counter").textContent = newData.length;
                 yearCounter++;
-            }, 100);
+            }, 500);
         }
 
         document.querySelector(`#${currViz}`).addEventListener('click', function () {

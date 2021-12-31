@@ -1,7 +1,9 @@
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const {
+  CleanWebpackPlugin
+} = require('clean-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-
+const webpack = require('webpack')
 const paths = require('./paths')
 
 module.exports = {
@@ -22,16 +24,14 @@ module.exports = {
 
     // Copies files from target to destination folder
     new CopyWebpackPlugin({
-      patterns: [
-        {
-          from: paths.public,
-          to: 'assets',
-          globOptions: {
-            ignore: ['*.DS_Store'],
-          },
-          noErrorOnMissing: true,
+      patterns: [{
+        from: paths.public,
+        to: 'assets',
+        globOptions: {
+          ignore: ['*.DS_Store'],
         },
-      ],
+        noErrorOnMissing: true,
+      }, ],
     }),
 
     // Generates an HTML file from a template
@@ -42,19 +42,41 @@ module.exports = {
       template: paths.src + '/template.html', // template file
       filename: 'index.html', // output file
     }),
+
+    new webpack.DefinePlugin({
+      "__data__": function () {
+        switch (process.env.NODE_ENV) {
+          case 'development':
+            return JSON.stringify('data/data.csv');
+          case 'production':
+            return JSON.stringify('assets/data/data.csv');
+          default:
+            return JSON.stringify('')
+        }
+      }()
+    }),
   ],
 
   // Determine how modules within the project are treated
   module: {
     rules: [
       // JavaScript: Use Babel to transpile JavaScript files
-      { test: /\.js$/, use: ['babel-loader'] },
+      {
+        test: /\.js$/,
+        use: ['babel-loader']
+      },
 
       // Images: Copy image files to build folder
-      { test: /\.(?:ico|gif|png|jpg|jpeg)$/i, type: 'asset/resource' },
+      {
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
+        type: 'asset/resource'
+      },
 
       // Fonts and SVGs: Inline files
-      { test: /\.(woff(2)?|eot|ttf|otf|svg|)$/, type: 'asset/inline' },
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|svg|)$/,
+        type: 'asset/inline'
+      },
     ],
   },
 

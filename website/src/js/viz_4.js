@@ -8,6 +8,9 @@ import Viz from "./viz_core";
     const currViz = "PlayViz4";
 
     Viz.VIZUALIZATIONS[currViz] = function () {
+        const WIDTH = 1150;
+        const HEIGHT = 400;
+
         const filter = crossfilter(Viz.DATA);
         const raw = filter.dimension(function (o) {
             return o['country'];
@@ -26,14 +29,14 @@ import Viz from "./viz_core";
                 const country_hu = rawByCountry.top(Infinity)[0]['country_hu'];
                 const countryAll = rawByCountry.top(Infinity).length;
 
-                const sumAllRevenue = rawByCountry.top(Infinity).reduce((total, current) => total += parseFloat(current['Revenue']), 0).toFixed(2);
+                const sumAllRevenue = rawByCountry.top(Infinity).reduce((total, current) => total += parseFloat(current['Revenue']), 0);
 
                 rawByCountry.group().top(Infinity).forEach((industry) => {
                     const segment = rawByCountry.filter(industry.key).top(Infinity);
                     const segmentNumber = segment.length;
                     const industry_hu = segment[0]['industry_cat_hu'];
 
-                    const sumRevenue = segment.reduce((total, current) => total += parseFloat(current['Revenue']), 0).toFixed(2);
+                    const sumRevenue = segment.reduce((total, current) => total += parseFloat(current['Revenue']), 0);
 
                     data.push({
                         'country': country.key,
@@ -41,7 +44,7 @@ import Viz from "./viz_core";
                         'num_number': segmentNumber,
                         'num_percentage': (segmentNumber / countryAll * 100).toFixed(2),
                         'revenue_number': sumRevenue,
-                        'revenue_percentage': (sumRevenue / sumAllRevenue * 100).toFixed(2),
+                        'revenue_percentage': (sumRevenue / sumAllRevenue * 100).toFixed(0),
                         'country_hu': country_hu,
                         'industry_hu': industry_hu
                     })
@@ -64,12 +67,8 @@ import Viz from "./viz_core";
                         "disable": true
                     }
                 },
-                "width": 1150,
-                "height": 400,
-                "autosize": {
-                    "type": "fit",
-                    "contains": "padding"
-                },
+                "width": WIDTH,
+                "height": HEIGHT,
                 "data": {
                     "name": "table"
                 },
@@ -126,23 +125,23 @@ import Viz from "./viz_core";
                         {
                             "field": "num_number",
                             "type": "quantitative",
-                            "title": "Vállalatok száma"
+                            "title": "Vállalatok száma (db)"
                         },
                         {
                             "field": "num_percentage",
                             "type": "quantitative",
-                            "title": "Vállalatok számából kitesz"
+                            "title": "Vállalatok számából kitesz (%)"
                         },
                         {
                             "field": "revenue_number",
                             "type": "quantitative",
-                            "title": "Vállalatok árbevétele"
+                            "title": "Vállalatok árbevétele (mrd. $)"
                         },
                         {
                             "field": "revenue_percentage",
                             "type": "quantitative",
-                            "title": "Vállalatok árbevételéből kitesz"
-                        },
+                            "title": "Ország összárbevételéből kitesz (%)"
+                        }
                     ]
                 }
             };

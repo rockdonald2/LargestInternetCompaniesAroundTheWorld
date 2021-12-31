@@ -1,0 +1,56 @@
+.footer {
+    background-color: $light-grey;
+    width: 55%;
+    margin: 3rem auto;
+    padding: 2rem 3rem;
+    position: relative;
+    border-radius: 4px;
+
+    @media screen and (max-width: 1600px) {
+        width: 75%;
+    }
+
+    &--referrals {
+        font-size: 1.6rem;
+        max-width: 75%;
+        margin: 0 auto;
+        padding: 1.5rem 0;
+
+        @media screen and (max-width: 1600px) {
+            max-width: 95%;
+        }
+
+        a {
+            text-decoration: none;
+            color: $main-blue;
+            font-weight: 500;
+            transition: all .25s;
+
+            &:hover,
+            &:focus {
+                color: $orange;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    &--icon {
+        background-color: $main-blue;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        padding: .75rem;
+        @include layeredShadow;
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        svg {
+            width: 4rem;
+            height: 4rem;
+            stroke: $light-grey;
+        }
+    }
+}

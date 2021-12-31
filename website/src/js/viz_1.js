@@ -8,18 +8,16 @@ import Viz from "./viz_core";
     const currViz = "PlayViz1";
 
     Viz.VIZUALIZATIONS[currViz] = function () {
-        const WIDTH = 1500;
+        const WIDTH = 1300;
         const HEIGHT = 750;
 
         const filter = crossfilter(Viz.DATA);
-
         const dataByYear = filter.dimension(function (o) {
             return o['Founded'];
-        })
+        });
 
         const makeData = function (rangeOfYearlyData) {
             const tempCrossfilter = crossfilter(rangeOfYearlyData);
-
             const dataByCity = tempCrossfilter.dimension(function (o) {
                 return o['geoc_city'];
             });
@@ -37,6 +35,12 @@ import Viz from "./viz_core";
                 }
             });
 
+            Object.keys(coords).forEach((city) => {
+                const companiesArr = [];
+                dataByCity.filter(city).top(Infinity).forEach((curr) => companiesArr.push(curr['Company']));
+                coords[city]['companies'] = companiesArr.join(", ");
+            });
+
             const coords_arr = [];
 
             Object.keys(coords).forEach((o) => {
@@ -45,7 +49,8 @@ import Viz from "./viz_core";
                     'coord_lat': coords[o]['coord_lat'],
                     'coord_lon': coords[o]['coord_lon'],
                     'weight': coords[o]['weight'],
-                    'country': coords[o]['country']
+                    'country': coords[o]['country'],
+                    'companies': coords[o]['companies']
                 });
             });
 
@@ -64,7 +69,7 @@ import Viz from "./viz_core";
                     "orient": "none",
                     "direction": "horizontal",
                     "titleColor": "#fff",
-                    "legendX": WIDTH / 1.5 - 50,
+                    "legendX": WIDTH / 1.6,
                     "legendY": 0
                 }
             },
@@ -126,7 +131,12 @@ import Viz from "./viz_core";
                             {
                                 "field": "weight",
                                 "type": "quantitative",
-                                "title": "Vállalatok száma"
+                                "title": "Vállalatok száma (db)",
+                            },
+                            {
+                                "field": "companies",
+                                "type": "nominal",
+                                "title": "Vállalatok"
                             }
                         ]
                     }
@@ -165,7 +175,7 @@ import Viz from "./viz_core";
                 document.querySelector("#Viz1Counter").textContent = data.length - previous;
                 yearCounter++;
                 previous = data.length;
-            }, 97);
+            }, 500);
         }
 
         document.querySelector(`#${currViz}`).addEventListener('click', stream);

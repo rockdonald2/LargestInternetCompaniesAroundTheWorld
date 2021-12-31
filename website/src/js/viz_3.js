@@ -60,8 +60,8 @@ import Viz from "./viz_core";
             });
         }
 
-        const innerWidth = 500;
-        const innerHeight = 300;
+        const innerWidth = 340;
+        const innerHeight = 260;
         const innerRadius = 85;
 
         function makeSpecInnerLayer(fieldData, title) {
@@ -77,8 +77,8 @@ import Viz from "./viz_core";
                         "disable": true
                     }
                 },
-                "width": 350,
-                "height": innerHeight * .9,
+                "width": innerWidth,
+                "height": innerHeight,
                 "data": {
                     "name": "table"
                 },
@@ -138,8 +138,8 @@ import Viz from "./viz_core";
                         "disable": true
                     }
                 },
-                "width": innerWidth * 1.75,
-                "height": innerHeight * 1.75,
+                "width": innerWidth * 1.85,
+                "height": innerHeight * 1.85,
                 "data": {
                     "name": "table"
                 },
@@ -212,7 +212,7 @@ import Viz from "./viz_core";
             const choice = dropdown.value;
             
             if (choice === 'revenue') {
-                vegaEmbedModule("#viz_3", makeSpecInnerLayer("revenue", "Árbevétel"), {
+                vegaEmbedModule("#viz_3", makeSpecInnerLayer("revenue", "Árbevétel (mrd. $)"), {
                     renderer: "canvas",
                     actions: false
                 }).then(function (res) {
@@ -222,7 +222,7 @@ import Viz from "./viz_core";
                 .catch(function (err) {
                     console.warn(err);
                 });
-                vegaEmbedModule("#viz_4", makeSpecOuterLayer("revenue", "Árbevétel"), {
+                vegaEmbedModule("#viz_4", makeSpecOuterLayer("revenue", "Árbevétel (mrd. $)"), {
                     renderer: "canvas",
                     actions: false
                 }).then(function (res) {
@@ -232,7 +232,7 @@ import Viz from "./viz_core";
                     console.warn(err);
                 });
             } else if (choice === 'number') {
-                vegaEmbedModule("#viz_3", makeSpecInnerLayer("number", "Vállalatok száma"), {
+                vegaEmbedModule("#viz_3", makeSpecInnerLayer("number", "Vállalatok száma (db)"), {
                     renderer: "canvas",
                     actions: false
                 }).then(function (res) {
@@ -242,7 +242,7 @@ import Viz from "./viz_core";
                 .catch(function (err) {
                     console.warn(err);
                 });
-                vegaEmbedModule("#viz_4", makeSpecOuterLayer("number", "Vállalatok száma"), {
+                vegaEmbedModule("#viz_4", makeSpecOuterLayer("number", "Vállalatok száma (db)"), {
                     renderer: "canvas",
                     actions: false
                 }).then(function (res) {

@@ -5,7 +5,7 @@ import Viz from "./viz_core";
     'use strict';
 
     d3.queue()
-        .defer(d3.csv, 'data/normalized.csv')
+        .defer(d3.csv, __data__)
         .await(ready);
 
     function ready(error, data) {
