@@ -1,3 +1,4 @@
+import * as d3 from'd3v4';
 export default class Viz {
     static DATA = {};
     static COLORS = {
@@ -54,5 +55,9 @@ export default class Viz {
         Object.keys(Viz.VIZUALIZATIONS).forEach((k) => {
             Viz.VIZUALIZATIONS[k]();
         });
+
+        setTimeout(() => {
+            d3.select('.loader').attr('class', 'loader hide');
+        }, 2000);
     }
 }
