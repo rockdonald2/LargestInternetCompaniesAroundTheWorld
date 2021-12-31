@@ -1,12 +1,10 @@
-import * as d3 from "d3v4";
-import Viz from "./viz_core";
+import * as d3 from 'd3v4';
+import Viz from './viz_core';
 
 (function () {
     'use strict';
 
-    d3.queue()
-        .defer(d3.csv, __data__)
-        .await(ready);
+    d3.queue().defer(d3.csv, __data__).await(ready);
 
     function ready(error, data) {
         if (error) {
@@ -16,5 +14,5 @@ import Viz from "./viz_core";
         Viz.DATA = data;
 
         new Viz();
-    };
-}());
+    }
+})();
