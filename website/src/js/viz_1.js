@@ -72,6 +72,8 @@ import Viz from './viz_core';
                     titleColor: '#fff',
                     legendX: WIDTH / 1.6,
                     legendY: 0,
+                    labelFontSize: 13,
+                    labelPadding: 10,
                 },
             },
             layer: [
