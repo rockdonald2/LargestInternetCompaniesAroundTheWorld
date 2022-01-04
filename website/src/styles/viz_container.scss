@@ -209,16 +209,20 @@
 
     #viz_4 {
         position: absolute;
-        transform: translate(-50%, -41%);
+        transform: translate(-50%, -50%);
         top: 50%;
         left: 50%;
     }
 
     #viz_3 {
-        margin: 17.5rem 0 12.5rem 0;
         position: relative;
         z-index: 1;
         display: block;
+    }
+
+    #layeredDonutChart {
+        margin: 17.5rem 0 12.5rem 0;
+        position: relative;
     }
 
     #viz3Title {
