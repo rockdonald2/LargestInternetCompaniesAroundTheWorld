@@ -12,509 +12,6 @@
     </head>
 
     <body>
-        <div id="root">
-            <section class="header">
-                <h1 class="header--title">
-                    2020-as pillanatkép az
-                    <span class="header--title__highlight">internet iparág </span>legnagyobb
-                    szereplőiről
-                </h1>
-                <div class="header--icon">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                        />
-                    </svg>
-                </div>
-            </section>
-            <section class="introduction">
-                <h2 class="introduction--subtitle">
-                    a 100 legnagyobb internet vállalat adatai alapján
-                </h2>
-                <p class="introduction--desc">
-                    A 100 legnagyobb internet vállalat listáját azon vállalatok alkotják, amelyek
-                    <span class="introduction--desc__highlight"
-                        >bevételüket nagy részben az online térben folytatott üzleti tevékenységből
-                        szerzik</span
-                    >. Gyakran nevezik ezeket a vállalatokat
-                    <span class="introduction--desc__highlight">“dot-com” vállalatoknak</span>,
-                    ezzel is utalva arra, hogy egy website-on keresztül történik az értékesítés
-                    javarésze.
-                </p>
-            </section>
-
-            <section class="divider">
-                <div class="divider--icon">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                        />
-                    </svg>
-                </div>
-                <h3 class="divider--title">Mikor, hol és milyen iparágban?</h3>
-            </section>
-
-            <section class="viz_container">
-                <div class="viz_container--controls">
-                    <button class="viz_container--controls__play" id="PlayViz1">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                        >
-                            <path
-                                fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                                clip-rule="evenodd"
-                            />
-                        </svg>
-                    </button>
-                    <label for="PlayViz1">
-                        Kattintson a lejátszás gombra az animáció elindításáért
-                    </label>
-                </div>
-                <div class="viz_container--info">
-                    <div class="viz_container--info__left">
-                        <p>
-                            <span class="viz_container--info__year" id="Viz1Year">2020</span>:
-                            <span id="Viz1Counter" class="viz_container--info__counter">0</span> új
-                            vállalat
-                        </p>
-                    </div>
-                    <div class="viz_container--info__right">
-                        <p>A legnagyobb internet vállalatok száma székhelyük szerint</p>
-                    </div>
-                </div>
-                <div id="viz_1"></div>
-                <div class="viz_container--conclusion">
-                    <div class="viz_container--conclusion__icon">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M13 5l7 7-7 7M5 5l7 7-7 7"
-                            />
-                        </svg>
-                    </div>
-                    <p class="viz_container--conclusion__desc">
-                        Az internet iparág robbanása 1993 és 2003 közé tehető: ekkor hozták létre a
-                        legtöbb vállalatot. Földrajzilag nézve, a vállalatok 68%-ának a székhelye az
-                        AEÁ-ban van és további 13% Kínában található. Nem meglepően, San
-                        Francisco-ban, a Szilícium-völgyben működik a vállalatok közel 20%-a.
-                        Viszont a tény, hogy az AEÁ többi térsége a legnagyobb vállalatok közel
-                        felének ad otthont, arra enged következtetni, hogy itt egy kedvező piac
-                        fejlődött ki az elmúlt évtizedekben.
-                    </p>
-                    <h3 class="viz_container--conclusion__main">
-                        a vállalatok átlagéletkora 19 év és 68%-uk az Amerikai Egyesült Államokba
-                        van bejegyezve
-                    </h3>
-                </div>
-            </section>
-
-            <section class="viz_container">
-                <div class="viz_container--title">
-                    <h4>Vállalatok száma a bejegyzési évük és aliparáguk szerint</h4>
-                    <p>Kattintson az aliparág nevére szűréshez</p>
-                </div>
-                <div class="viz_container--filter" id="Viz2IndustryCats"></div>
-                <div class="viz_container--controls">
-                    <button class="viz_container--controls__play" id="PlayViz2">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-5 w-5"
-                            viewBox="0 0 20 20"
-                            fill="currentColor"
-                        >
-                            <path
-                                fill-rule="evenodd"
-                                d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
-                                clip-rule="evenodd"
-                            />
-                        </svg>
-                    </button>
-                    <label for="PlayViz2">
-                        Kattintson a lejátszás gombra az animáció elindításáért
-                    </label>
-                </div>
-                <div class="viz_container--info">
-                    <div class="viz_container--info__left">
-                        <p>
-                            <span class="viz_container--info__year" id="Viz2Year">2020</span>:
-                            <span id="Viz2Counter" class="viz_container--info__counter">0</span> új
-                            vállalat
-                        </p>
-                    </div>
-                </div>
-                <div id="viz_2"></div>
-                <div class="viz_container--conclusion">
-                    <div class="viz_container--conclusion__icon">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M13 5l7 7-7 7M5 5l7 7-7 7"
-                            />
-                        </svg>
-                    </div>
-                    <p class="viz_container--conclusion__desc">
-                        A legnépszerűbb iparág az E-kereskedelem, amelyhez a vállalatok 32%-a
-                        tartozik és ezt követi a Szoftver kategória. Mindkettő esetén a legtöbb
-                        vállalatot 1998 és 2005 között jegyezték be. Míg az E-kereskedelem
-                        vállalatok világszerte 11 országban vannak bejegyezve, a Szoftver kategória
-                        esetében 1 vállalat kivételével az összesnek az AEÁ-ban van a székhelye.
-                        Másrészt a legrégebben kialakult aliparág az Internet, amely esetén a
-                        legnagyobb vállalatok 1995 és 2000-ben voltak bejegyezve. Továbbá, a
-                        Házhozszállítás és Szállítás iparágakhoz tartozó vállalatok pedig
-                        2010-2013-ban voltak létrehozva, így ez a kettő számít a legfiatalabbnak a
-                        ranglistában.
-                    </p>
-                    <h3 class="viz_container--conclusion__main">
-                        a vállalatok közel két harmada az E-kereskedelem, Szoftver és Internet
-                        aliparághoz tartózik
-                    </h3>
-                </div>
-            </section>
-
-            <section class="divider">
-                <div class="divider--icon">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
-                        />
-                    </svg>
-                </div>
-                <h3 class="divider--title">Melyik aliparágban, milyen országban, de mennyit?</h3>
-            </section>
-
-            <section
-                class="viz_container"
-                style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                "
-            >
-                <div class="viz_container--title" id="viz3Title">
-                    <h4>Vállalatok száma és árbevétele aliparág szerint</h4>
-                </div>
-                <div class="viz_container--controls">
-                    <select id="pieChoice">
-                        <option value="revenue" selected>Árbevétel (mrd. $)</option>
-                        <option value="number">Vállalatok száma (db)</option>
-                    </select>
-                </div>
-                <div class="viz_container--title" id="viz3Title">
-                    <p>
-                        Több iparág kiválasztásáért Shift gomb lenyomásával klikkeljen a megfelelő
-                        körrészekre.
-                    </p>
-                    <p>
-                        A belső kör aliparágokra, míg a külső kör országokra vonatkozó
-                        statisztikákat mutat be.
-                    </p>
-                </div>
-                <div class="viz_container--legend" id="viz3Legend"></div>
-                <div id="layeredDonutChart">
-                    <div id="viz_3"></div>
-                    <div id="viz_4"></div>
-                </div>
-                <div class="viz_container--conclusion">
-                    <div class="viz_container--conclusion__icon">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M13 5l7 7-7 7M5 5l7 7-7 7"
-                            />
-                        </svg>
-                    </div>
-                    <p class="viz_container--conclusion__desc">
-                        A vállalatok egy-harmada az e-kereskedelem aliparágban található és ezek
-                        közel 53%-át teszik ki a vállalatok összárbevételének. Eközben, a közösségi
-                        média kategóriába tartozó 6 vállalat együttesen az összárbevétel 10%-át
-                        jelentik, ami a 3. legnagyobb megoszlás. Érdekes továbbá, hogy a szoftver
-                        aliparág, amelyhez 18 vállalat tartozik csak 5%-át jelenti az
-                        összárbevételnek. Másrészt minden aliparág esetén a legnagyobb részt az
-                        árbevételből az AEÁ teszi ki.
-                    </p>
-                    <h3 class="viz_container--conclusion__main">
-                        A 3 legnagyobb kategóriába tartozó 63 vállalat a vállalatok
-                        összárbevételének 79%-át teszi ki.
-                    </h3>
-                </div>
-            </section>
-
-            <section
-                class="viz_container"
-                style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                "
-            >
-                <div class="viz_container--title" id="viz3Title">
-                    <h4>
-                        Vállalatok száma és árbevételének megoszlása a székhelyük országa szerint
-                    </h4>
-                </div>
-                <div class="viz_container--controls">
-                    <select id="barchartChoice">
-                        <option value="num_number" selected>Vállalatok száma (db)</option>
-                        <option value="num_percentage">Vállalatok számának megoszlása (%)</option>
-                        <option value="revenue_number">Vállalatok árbevétele (mrd. $)</option>
-                        <option value="revenue_percentage">
-                            Vállalatok árbevételének megoszlása (%)
-                        </option>
-                    </select>
-                </div>
-                <div class="viz_container--legend" id="viz5Legend"></div>
-                <div id="viz_5"></div>
-                <div class="viz_container--conclusion">
-                    <div class="viz_container--conclusion__icon">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M13 5l7 7-7 7M5 5l7 7-7 7"
-                            />
-                        </svg>
-                    </div>
-                    <p class="viz_container--conclusion__desc">
-                        Ameddig az AEÁ-ba a vállalatok közel 70%-a van bejegyezve, a teljes
-                        összárbevétel 65%-át teszik ki csak. Ezzel ellentétben, a Kínában bejegyzett
-                        13 vállalat 28%-ot tesz ki a 100 legnagyobb vállalat összárbevételéből. A
-                        legnagyobb árbevételeket az e-kereskedelem kategóriában találjuk. Ezt követi
-                        az internet aliparág, amelyhez 4 országba bejegyzett vállalatok tartoznak,
-                        viszont mindegyik esetében megfigyelhető, hogy nagyobb részt tesz ki ez a
-                        kategória az összárbevételből, mint a vállalatok száma, amelyek ebbe a
-                        kategóriába tartozik. Továbbá, a szoftver aliparág, amely a vállalatok száma
-                        szerint a második legnépszerűbb iparág, sokkal kevesebb részt tesz ki az
-                        árbevételből.
-                    </p>
-                    <h3 class="viz_container--conclusion__main">
-                        az E-kereskedelem majdnem minden országban az árbevétel legnagyobb részét
-                        teszi ki a többi aliparághoz viszonyítva
-                    </h3>
-                </div>
-            </section>
-
-            <section class="divider">
-                <div class="divider--icon">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
-                        />
-                    </svg>
-                </div>
-                <h3 class="divider--title">Átlagban mennyit?</h3>
-            </section>
-
-            <section
-                class="viz_container"
-                style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                "
-            >
-                <div class="viz_container--title" id="viz3Title">
-                    <h4>
-                        Vállalatok száma és árbevételének megoszlása a székhelyük országa szerint
-                    </h4>
-                </div>
-                <div id="viz_6"></div>
-                <div class="viz_container--conclusion">
-                    <div class="viz_container--conclusion__icon">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M13 5l7 7-7 7M5 5l7 7-7 7"
-                            />
-                        </svg>
-                    </div>
-                    <p class="viz_container--conclusion__desc">
-                        A 100 legnagyobb internet vállalat összárbevétele közel 1.5 billió USD és
-                        ebből az AEÁ tesz ki közel 1 billiót. Ezt követi Kína 400 milliárd USD-vel
-                        és a többi országban az összárbevétel 26 milliárd USD-nél kevesebb, viszont
-                        ezekben az országokban láthatóan kevesebb vállalat székhelye van.
-                    </p>
-                    <h3 class="viz_container--conclusion__main">
-                        az AEÁ-ban van a legnagyobb összárbevétel és a legtöbb vállalat is
-                        bejegyezve, míg a többi országban 25 mrd $ alatt van az összárbevétel
-                    </h3>
-                </div>
-            </section>
-
-            <section
-                class="viz_container"
-                style="
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    flex-direction: column;
-                "
-            >
-                <div class="viz_container--title" id="viz3Title">
-                    <h4>Vállalatok átlagárbevétele</h4>
-                </div>
-                <div class="viz_container--legend" id="viz7Legend"></div>
-                <div id="viz_7"></div>
-                <div class="viz_container--conclusion">
-                    <div class="viz_container--conclusion__icon">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            class="h-6 w-6"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="M13 5l7 7-7 7M5 5l7 7-7 7"
-                            />
-                        </svg>
-                    </div>
-                    <p class="viz_container--conclusion__desc">
-                        Kínában a 30 mrd. USD-s átlagárbevétel magasan a többi ország fölé
-                        emelkedik. A következő a rangsorban az AEÁ, ahol a legtöbb vállalat van
-                        bejegyezve és az összárbevétel a legnagyobb volt. Meglepő módon ugyancsak 13
-                        mrd. USD-vel a következő fokon van Japán, ahol egyetlen vállalat van
-                        bejegyezve és Németország ahol csupán csak kettő.
-                    </p>
-                    <h3 class="viz_container--conclusion__main">
-                        Kínában a legnagyobb az egy vállalatra eső árbevétel, míg az AEÁ-ban volt a
-                        legtöbb vállalat és a legnagyobb árbevétel is
-                    </h3>
-                </div>
-            </section>
-
-            <section class="footer">
-                <div class="footer--icon">
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-6 w-6"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                    >
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
-                        />
-                    </svg>
-                </div>
-
-                <p class="footer--referrals">
-                    A vizualizációt Vega Lite-ban és az adatfeldolgozást Python-ban készítette,
-                    <a href="https://www.linkedin.com/in/zsolt-lukacs/" target="_blank"
-                        >Lukács Zsolt</a
-                    >,
-                    <a href="https://www.linkedin.com/in/orsolya-dorottya-holgyes/" target="_blank"
-                        >Hölgyes Orsolya-Dorottya</a
-                    >,
-                    <a
-                        href="https://www.linkedin.com/in/jancs%C3%B3-norbert-48198b197/"
-                        target="_blank"
-                        >Jancsó Norbert</a
-                    >
-                    és
-                    <a href="https://www.linkedin.com/in/csenterigergely/" target="_blank">
-                        Csenteri András-Gergely</a
-                    >
-                    a
-                    <a
-                        href="https://www.kaggle.com/prasertk/largest-internet-companies-2021"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        Kaggle-ről
-                    </a>
-                    származó adatok alapján.
-                </p>
-            </section>
-        </div>
-
         <div class="loader">
             <div class="lds-ring">
                 <div></div>
@@ -524,5 +21,506 @@
             </div>
             <p>Ez a vizualizáció minimum 1450 pixel szélességű kijelzőre lett optimalizálva.</p>
         </div>
+
+        <section class="header">
+            <h1 class="header--title">
+                2020-as pillanatkép az
+                <span class="header--title__highlight">internet iparág </span>legnagyobb
+                szereplőiről
+            </h1>
+            <div class="header--icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                    />
+                </svg>
+            </div>
+        </section>
+        <section class="introduction">
+            <h2 class="introduction--subtitle">
+                a 100 legnagyobb internet vállalat adatai alapján
+            </h2>
+            <p class="introduction--desc">
+                A 100 legnagyobb internet vállalat listáját azon vállalatok alkotják, amelyek
+                <span class="introduction--desc__highlight"
+                    >bevételüket nagy részben az online térben folytatott üzleti tevékenységből
+                    szerzik</span
+                >. Gyakran nevezik ezeket a vállalatokat
+                <span class="introduction--desc__highlight">“dot-com” vállalatoknak</span>,
+                ezzel is utalva arra, hogy egy website-on keresztül történik az értékesítés
+                javarésze.
+            </p>
+        </section>
+
+        <section class="divider">
+            <div class="divider--icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                </svg>
+            </div>
+            <h3 class="divider--title">Mikor, hol és milyen iparágban?</h3>
+        </section>
+
+        <section class="viz_container">
+            <div class="viz_container--controls">
+                <button class="viz_container--controls__play" id="PlayViz1">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </button>
+                <label for="PlayViz1">
+                    Kattintson a lejátszás gombra az animáció elindításáért
+                </label>
+            </div>
+            <div class="viz_container--info">
+                <div class="viz_container--info__left">
+                    <p>
+                        <span class="viz_container--info__year" id="Viz1Year">2020</span>:
+                        <span id="Viz1Counter" class="viz_container--info__counter">0</span> új
+                        vállalat
+                    </p>
+                </div>
+                <div class="viz_container--info__right">
+                    <p>A legnagyobb internet vállalatok száma székhelyük szerint</p>
+                </div>
+            </div>
+            <div id="viz_1"></div>
+            <div class="viz_container--conclusion">
+                <div class="viz_container--conclusion__icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                    </svg>
+                </div>
+                <p class="viz_container--conclusion__desc">
+                    Az internet iparág robbanása 1993 és 2003 közé tehető: ekkor hozták létre a
+                    legtöbb vállalatot. Földrajzilag nézve, a vállalatok 68%-ának a székhelye az
+                    AEÁ-ban van és további 13% Kínában található. Nem meglepően, San
+                    Francisco-ban, a Szilícium-völgyben működik a vállalatok közel 20%-a.
+                    Viszont a tény, hogy az AEÁ többi térsége a legnagyobb vállalatok közel
+                    felének ad otthont, arra enged következtetni, hogy itt egy kedvező piac
+                    fejlődött ki az elmúlt évtizedekben.
+                </p>
+                <h3 class="viz_container--conclusion__main">
+                    a vállalatok átlagéletkora 19 év és 68%-uk az Amerikai Egyesült Államokba
+                    van bejegyezve
+                </h3>
+            </div>
+        </section>
+
+        <section class="viz_container">
+            <div class="viz_container--title">
+                <h4>Vállalatok száma a bejegyzési évük és aliparáguk szerint</h4>
+                <p>Kattintson az aliparág nevére szűréshez</p>
+            </div>
+            <div class="viz_container--filter" id="Viz2IndustryCats"></div>
+            <div class="viz_container--controls">
+                <button class="viz_container--controls__play" id="PlayViz2">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        viewBox="0 0 20 20"
+                        fill="currentColor"
+                    >
+                        <path
+                            fill-rule="evenodd"
+                            d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"
+                            clip-rule="evenodd"
+                        />
+                    </svg>
+                </button>
+                <label for="PlayViz2">
+                    Kattintson a lejátszás gombra az animáció elindításáért
+                </label>
+            </div>
+            <div class="viz_container--info">
+                <div class="viz_container--info__left">
+                    <p>
+                        <span class="viz_container--info__year" id="Viz2Year">2020</span>:
+                        <span id="Viz2Counter" class="viz_container--info__counter">0</span> új
+                        vállalat
+                    </p>
+                </div>
+            </div>
+            <div id="viz_2"></div>
+            <div class="viz_container--conclusion">
+                <div class="viz_container--conclusion__icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                    </svg>
+                </div>
+                <p class="viz_container--conclusion__desc">
+                    A legnépszerűbb iparág az E-kereskedelem, amelyhez a vállalatok 32%-a
+                    tartozik és ezt követi a Szoftver kategória. Mindkettő esetén a legtöbb
+                    vállalatot 1998 és 2005 között jegyezték be. Míg az E-kereskedelem
+                    vállalatok világszerte 11 országban vannak bejegyezve, a Szoftver kategória
+                    esetében 1 vállalat kivételével az összesnek az AEÁ-ban van a székhelye.
+                    Másrészt a legrégebben kialakult aliparág az Internet, amely esetén a
+                    legnagyobb vállalatok 1995 és 2000-ben voltak bejegyezve. Továbbá, a
+                    Házhozszállítás és Szállítás iparágakhoz tartozó vállalatok pedig
+                    2010-2013-ban voltak létrehozva, így ez a kettő számít a legfiatalabbnak a
+                    ranglistában.
+                </p>
+                <h3 class="viz_container--conclusion__main">
+                    a vállalatok közel két harmada az E-kereskedelem, Szoftver és Internet
+                    aliparághoz tartózik
+                </h3>
+            </div>
+        </section>
+
+        <section class="divider">
+            <div class="divider--icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4"
+                    />
+                </svg>
+            </div>
+            <h3 class="divider--title">Melyik aliparágban, milyen országban, de mennyit?</h3>
+        </section>
+
+        <section
+            class="viz_container"
+            style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            "
+        >
+            <div class="viz_container--title" id="viz3Title">
+                <h4>Vállalatok száma és árbevétele aliparág szerint</h4>
+            </div>
+            <div class="viz_container--controls">
+                <select id="pieChoice">
+                    <option value="revenue" selected>Árbevétel (mrd. $)</option>
+                    <option value="number">Vállalatok száma (db)</option>
+                </select>
+            </div>
+            <div class="viz_container--title" id="viz3Title">
+                <p>
+                    Több iparág kiválasztásáért Shift gomb lenyomásával klikkeljen a megfelelő
+                    körrészekre.
+                </p>
+                <p>
+                    A belső kör aliparágokra, míg a külső kör országokra vonatkozó
+                    statisztikákat mutat be.
+                </p>
+            </div>
+            <div class="viz_container--legend" id="viz3Legend"></div>
+            <div id="layeredDonutChart">
+                <div id="viz_3"></div>
+                <div id="viz_4"></div>
+            </div>
+            <div class="viz_container--conclusion">
+                <div class="viz_container--conclusion__icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                    </svg>
+                </div>
+                <p class="viz_container--conclusion__desc">
+                    A vállalatok egy-harmada az e-kereskedelem aliparágban található és ezek
+                    közel 53%-át teszik ki a vállalatok összárbevételének. Eközben, a közösségi
+                    média kategóriába tartozó 6 vállalat együttesen az összárbevétel 10%-át
+                    jelentik, ami a 3. legnagyobb megoszlás. Érdekes továbbá, hogy a szoftver
+                    aliparág, amelyhez 18 vállalat tartozik csak 5%-át jelenti az
+                    összárbevételnek. Másrészt minden aliparág esetén a legnagyobb részt az
+                    árbevételből az AEÁ teszi ki.
+                </p>
+                <h3 class="viz_container--conclusion__main">
+                    A 3 legnagyobb kategóriába tartozó 63 vállalat a vállalatok
+                    összárbevételének 79%-át teszi ki.
+                </h3>
+            </div>
+        </section>
+
+        <section
+            class="viz_container"
+            style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            "
+        >
+            <div class="viz_container--title" id="viz3Title">
+                <h4>
+                    Vállalatok száma és árbevételének megoszlása a székhelyük országa szerint
+                </h4>
+            </div>
+            <div class="viz_container--controls">
+                <select id="barchartChoice">
+                    <option value="num_number" selected>Vállalatok száma (db)</option>
+                    <option value="num_percentage">Vállalatok számának megoszlása (%)</option>
+                    <option value="revenue_number">Vállalatok árbevétele (mrd. $)</option>
+                    <option value="revenue_percentage">
+                        Vállalatok árbevételének megoszlása (%)
+                    </option>
+                </select>
+            </div>
+            <div class="viz_container--legend" id="viz5Legend"></div>
+            <div id="viz_5"></div>
+            <div class="viz_container--conclusion">
+                <div class="viz_container--conclusion__icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                    </svg>
+                </div>
+                <p class="viz_container--conclusion__desc">
+                    Ameddig az AEÁ-ba a vállalatok közel 70%-a van bejegyezve, a teljes
+                    összárbevétel 65%-át teszik ki csak. Ezzel ellentétben, a Kínában bejegyzett
+                    13 vállalat 28%-ot tesz ki a 100 legnagyobb vállalat összárbevételéből. A
+                    legnagyobb árbevételeket az e-kereskedelem kategóriában találjuk. Ezt követi
+                    az internet aliparág, amelyhez 4 országba bejegyzett vállalatok tartoznak,
+                    viszont mindegyik esetében megfigyelhető, hogy nagyobb részt tesz ki ez a
+                    kategória az összárbevételből, mint a vállalatok száma, amelyek ebbe a
+                    kategóriába tartozik. Továbbá, a szoftver aliparág, amely a vállalatok száma
+                    szerint a második legnépszerűbb iparág, sokkal kevesebb részt tesz ki az
+                    árbevételből.
+                </p>
+                <h3 class="viz_container--conclusion__main">
+                    az E-kereskedelem majdnem minden országban az árbevétel legnagyobb részét
+                    teszi ki a többi aliparághoz viszonyítva
+                </h3>
+            </div>
+        </section>
+
+        <section class="divider">
+            <div class="divider--icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 00-1-1H4a2 2 0 110-4h1a1 1 0 001-1V7a1 1 0 011-1h3a1 1 0 001-1V4z"
+                    />
+                </svg>
+            </div>
+            <h3 class="divider--title">Átlagban mennyit?</h3>
+        </section>
+
+        <section
+            class="viz_container"
+            style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            "
+        >
+            <div class="viz_container--title" id="viz3Title">
+                <h4>
+                    Vállalatok száma és árbevételének megoszlása a székhelyük országa szerint
+                </h4>
+            </div>
+            <div id="viz_6"></div>
+            <div class="viz_container--conclusion">
+                <div class="viz_container--conclusion__icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                    </svg>
+                </div>
+                <p class="viz_container--conclusion__desc">
+                    A 100 legnagyobb internet vállalat összárbevétele közel 1.5 billió USD és
+                    ebből az AEÁ tesz ki közel 1 billiót. Ezt követi Kína 400 milliárd USD-vel
+                    és a többi országban az összárbevétel 26 milliárd USD-nél kevesebb, viszont
+                    ezekben az országokban láthatóan kevesebb vállalat székhelye van.
+                </p>
+                <h3 class="viz_container--conclusion__main">
+                    az AEÁ-ban van a legnagyobb összárbevétel és a legtöbb vállalat is
+                    bejegyezve, míg a többi országban 25 mrd $ alatt van az összárbevétel
+                </h3>
+            </div>
+        </section>
+
+        <section
+            class="viz_container"
+            style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            "
+        >
+            <div class="viz_container--title" id="viz3Title">
+                <h4>Vállalatok átlagárbevétele</h4>
+            </div>
+            <div class="viz_container--legend" id="viz7Legend"></div>
+            <div id="viz_7"></div>
+            <div class="viz_container--conclusion">
+                <div class="viz_container--conclusion__icon">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-6 w-6"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                    >
+                        <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M13 5l7 7-7 7M5 5l7 7-7 7"
+                        />
+                    </svg>
+                </div>
+                <p class="viz_container--conclusion__desc">
+                    Kínában a 30 mrd. USD-s átlagárbevétel magasan a többi ország fölé
+                    emelkedik. A következő a rangsorban az AEÁ, ahol a legtöbb vállalat van
+                    bejegyezve és az összárbevétel a legnagyobb volt. Meglepő módon ugyancsak 13
+                    mrd. USD-vel a következő fokon van Japán, ahol egyetlen vállalat van
+                    bejegyezve és Németország ahol csupán csak kettő.
+                </p>
+                <h3 class="viz_container--conclusion__main">
+                    Kínában a legnagyobb az egy vállalatra eső árbevétel, míg az AEÁ-ban volt a
+                    legtöbb vállalat és a legnagyobb árbevétel is
+                </h3>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="footer--icon">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-6 w-6"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                    />
+                </svg>
+            </div>
+
+            <p class="footer--referrals">
+                A vizualizációt Vega Lite-ban és az adatfeldolgozást Python-ban készítette,
+                <a href="https://www.linkedin.com/in/zsolt-lukacs/" target="_blank"
+                    >Lukács Zsolt</a
+                >,
+                <a href="https://www.linkedin.com/in/orsolya-dorottya-holgyes/" target="_blank"
+                    >Hölgyes Orsolya-Dorottya</a
+                >,
+                <a
+                    href="https://www.linkedin.com/in/jancs%C3%B3-norbert-48198b197/"
+                    target="_blank"
+                    >Jancsó Norbert</a
+                >
+                és
+                <a href="https://www.linkedin.com/in/csenterigergely/" target="_blank">
+                    Csenteri András-Gergely</a
+                >
+                a
+                <a
+                    href="https://www.kaggle.com/prasertk/largest-internet-companies-2021"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Kaggle-ről
+                </a>
+                származó adatok alapján.
+            </p>
+        </section>
     </body>
 </html>
