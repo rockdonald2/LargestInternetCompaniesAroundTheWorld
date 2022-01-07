@@ -70,7 +70,7 @@ import Viz from './viz_core';
                     orient: 'none',
                     direction: 'horizontal',
                     titleColor: '#fff',
-                    legendX: WIDTH / 1.6,
+                    legendX: WIDTH / 1.74,
                     legendY: 0,
                     labelFontSize: 13,
                     labelPadding: 10,
@@ -118,6 +118,9 @@ import Viz from './viz_core';
                         size: {
                             field: 'weight',
                             type: 'quantitative',
+                            scale: {
+                                domain: [1, 15]
+                            }
                         },
                         color: {
                             value: Viz.COLORS['main-blue'],
