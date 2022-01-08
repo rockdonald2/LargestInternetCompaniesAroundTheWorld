@@ -66,6 +66,11 @@ import Viz from './viz_core';
                 view: {
                     stroke: 'transparent',
                 },
+                axis: { labelFont: Viz.FONT, titleFont: Viz.FONT },
+                legend: { labelFont: Viz.FONT, titleFont: Viz.FONT },
+                header: { labelFont: Viz.FONT, titleFont: Viz.FONT },
+                mark: { font: Viz.FONT },
+                title: { font: Viz.FONT, subtitleFont: Viz.FONT },
                 legend: {
                     orient: 'none',
                     direction: 'horizontal',
@@ -119,8 +124,8 @@ import Viz from './viz_core';
                             field: 'weight',
                             type: 'quantitative',
                             scale: {
-                                domain: [1, 15]
-                            }
+                                domain: [1, 15],
+                            },
                         },
                         color: {
                             value: Viz.COLORS['main-blue'],

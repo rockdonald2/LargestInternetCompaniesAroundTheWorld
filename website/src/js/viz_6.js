@@ -62,6 +62,11 @@ import Viz from './viz_core';
                 view: {
                     stroke: 'transparent',
                 },
+                axis: { labelFont: Viz.FONT, titleFont: Viz.FONT },
+                legend: { labelFont: Viz.FONT, titleFont: Viz.FONT },
+                header: { labelFont: Viz.FONT, titleFont: Viz.FONT },
+                mark: { font: Viz.FONT },
+                title: { font: Viz.FONT, subtitleFont: Viz.FONT },
             },
             data: {
                 name: 'table',

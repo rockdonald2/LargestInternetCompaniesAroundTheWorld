@@ -50,6 +50,7 @@ export default class Viz {
         Europe: 'Európa',
         'South America': 'Dél-Amerika',
     };
+    static FONT = 'Inter';
 
     constructor() {
         Object.keys(Viz.VIZUALIZATIONS).forEach((k) => {
