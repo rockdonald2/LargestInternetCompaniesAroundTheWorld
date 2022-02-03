@@ -84,7 +84,7 @@ import Viz from './viz_core';
                     field: 'number',
                     type: 'quantitative',
                     scale: {
-                        domain: [0, 70],
+                        type: "log"
                     },
                     axis: {
                         gridColor: 'transparent',
